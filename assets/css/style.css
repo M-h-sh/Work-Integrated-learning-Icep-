@@ -1710,6 +1710,60 @@ section {
   background: #222; /* Change social media icon background color */
   color: #ccc; /* Change social media icon color */
 }
+.dark-mode #footer {
+  padding: 60px 0;
+  background-color: #333333;
+  color: #b5b5b5;
+  font-size: 14px;
+}
+
+.dark-mode #footer .footer-top {
+  background-color: #222222;
+  padding: 60px 0;
+}
+
+.dark-mode #footer .footer-top h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dark-mode #footer .footer-top p {
+  color: #b5b5b5;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.dark-mode #footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #444444;
+  color: #b5b5b5;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.dark-mode #footer .footer-top .social-links a:hover {
+  background: #009cea;
+  color: #fff;
+}
+
+.dark-mode #footer .footer-bottom {
+  padding-top: 30px;
+  background-color: #292929;
+}
+
+.dark-mode #footer .footer-bottom p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
 
 
 
