@@ -1658,7 +1658,7 @@ section {
   color: #ccc; /* Change logo text color */
 }
 .dark-mode #hero {
-  background-image: url("../img/hero-bg-dark.jpg"); /* Change hero background image */
+  background-image: url("../img/hero.jpg"); /* Change hero background image */
 }
 
 .dark-mode #hero h1,
