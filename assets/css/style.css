@@ -1638,55 +1638,76 @@ section {
 
 /* Light Mode Styles (your existing styles) */
 
-/* Dark Mode Styles */
-.dark-mode {
+/* Dark Mode Styles for Bootstrap 5 */
+
+/* Body Background */
+.dark-mode body {
   background-color: #121212;
   color: #ffffff;
 }
 
-.dark-mode #header {
+/* Navbar Background */
+.dark-mode .navbar {
   background-color: #1a1a1a;
 }
 
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode h5,
-.dark-mode h6 {
+/* Navbar Link Color */
+.dark-mode .navbar-nav .nav-link {
   color: #ffffff;
 }
 
-.dark-mode p,
-.dark-mode li,
-.dark-mode span {
-  color: #d0d0d0;
-}
-
-.dark-mode a {
+/* Active Navbar Link Color */
+.dark-mode .navbar-nav .nav-link.active,
+.dark-mode .navbar-nav .nav-link:hover {
   color: #66b3ff;
 }
 
-.dark-mode a:hover {
-  color: #0099ff;
-}
-
-/* Additional element styling for dark mode */
-.dark-mode .section-title h3 {
-  color: #ffffff;
-}
-
-.dark-mode .icon {
-  color: #66b3ff;
-}
-
-.dark-mode .btn {
+/* Button Styles */
+.dark-mode .btn-primary {
   background-color: #66b3ff;
+  border-color: #66b3ff;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #0099ff;
+  border-color: #0099ff;
+}
+
+/* Card Background */
+.dark-mode .card {
+  background-color: #292929;
+  border-color: rgba(255, 255, 255, 0.125);
+}
+
+/* Text Color */
+.dark-mode .text-light {
   color: #ffffff;
 }
 
-.dark-mode .btn:hover {
-  background-color: #0099ff;
+/* Form Input Background */
+.dark-mode .form-control {
+  background-color: #292929;
+  color: #ffffff;
 }
 
-/* Update other elements' styles for dark mode */
+/* Form Input Border */
+.dark-mode .form-control:focus {
+  border-color: #66b3ff;
+  box-shadow: 0 0 0 0.25rem rgba(102, 179, 255, 0.25);
+}
+
+/* Pagination Active Item */
+.dark-mode .page-item.active .page-link {
+  background-color: #66b3ff;
+  border-color: #66b3ff;
+}
+
+/* Pagination Hover Item */
+.dark-mode .page-item:not(.disabled):not(.active) .page-link:hover {
+  background-color: #0099ff;
+  border-color: #0099ff;
+}
+
+/* Custom Styles for Other Components */
+/* ... (Add additional styles for other components) ... */
+
