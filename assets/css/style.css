@@ -1636,78 +1636,291 @@ section {
 }
 /* Light Mode Styles (your existing styles) */
 
-/* Light Mode Styles (your existing styles) */
+ .modal-content.dark-mode {
+      background-color: #222;
+      color: #fff;
+    }
 
-/* Dark Mode Styles for Bootstrap 5 */
+    .modal-header.dark-mode {
+      background-color: #333;
+      border-bottom: 1px solid #444;
+    }
 
-/* Body Background */
-.dark-mode body {
-  background-color: #121212;
-  color: #ffffff;
+    /* Style the close button in dark mode */
+    .modal-header.dark-mode .btn-close {
+      color: #fff;
+    }
+	.dark-mode .bi .bi-x .fs-1{
+		color:#eee;
+	}
+
+
+  .dark-mode .modal-header {
+    background-color: #222;
+    border-bottom: 1px solid #444;
+  }
+
+  .dark-mode .modal-title {
+    color: #fff;
+  }
+
+  .dark-mode .modal-body {
+    background-color: #1a1a1a;
+    border-top: 1px solid #444;
+  }
+
+  .dark-mode .modal-body p {
+    color: #ccc;
+  }
+
+  .dark-mode .close {
+    color: #fff;
+  }
+  
+.dark-mode #about{
+	 background-color: #333;
+      color: #eee;
+    }
+  .dark-mode .title-s{
+	  color: #eee;
+  }
+ 
+
+    .dark-mode .navbar .nav-link {
+      color: #eee;
+    }
+
+    .dark-mode .hero-content {
+      color: #eee;
+    }
+
+    .dark-mode .services-mf {
+      background-color: #111;
+	 
+    }
+	
+	.dark-mode .s-description{
+		 color: #eee;
+		 
+	}
+	.dark-mode .s-title{
+		 color: #eee;
+		 
+	}
+    .dark-mode .ico-circle{
+		 color: #eee;
+	}
+
+    .dark-mode .services-mf h3.title-a,
+    .dark-mode .services-mf p.subtitle-a {
+      color: #eee;
+    }
+
+     body.dark-mode .service-box {
+      background-color: #333;
+      border-color: #555;
+    }
+	.dark-mode .portfolio-mf{
+		background-color: #333;
+      color: #eee;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+	.dark-mode .paralax-mf {
+		background-color: #333;
+      color: #eee;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+	.dark-mode #main{
+		background-color: #111;
+      color: #eee;
+	}
+	.dark-mode .work-box{
+		background-color: #111;
+      color: #eee;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+	}
+	.dark-mode .w-title{
+		color:#eee;
+	}
+	.dark-mode .w-date{
+		color:#eee;
+	}
+	 .dark-mode .w-more{
+		 color:#eee;
+	 }
+	 .dark-mode .w-like{
+		color:#eee; 
+	 }
+	.dark-mode .w-ctegory{
+		color:#eee;
+	}
+	.dark-mode .title-a{
+      color: #eee;
+	}
+	.dark-mode .subtitle-a{
+      color: #eee;
+	}
+   .dark-mode .contact-mf .form-control{
+	   border:none;
+	   background-color:#111;
+	   color:#fff;
+	
+   }
+    .dark-mode .portfolio-mf {
+      color: #111;
+    }.dark-mode .contact-mf {
+      background-color: #111;
+	  
+    }
+
+    .dark-mode .box-shadow-full{
+      background-color: #222;
+      color: #eee;
+    }
+
+
+
+    .dark-mode .contact-mf .btn-primary {
+      background-color: #333;
+      color: #eee;
+    }
+
+    .dark-mode .footer {
+      background-color: #222;
+      color: #eee;
+    }
+.dark-mode .navbar-mobile ul {
+  background-color: #333;
+  color: #eee;
+}
+.dark-mode .navbar-mobile a:hover,
+.dark-mode .navbar-mobile .active,
+.dark-mode .navbar-mobile li:hover>a {
+  color: #0078ff;
+}
+/* Add the following styles to the existing darkmode.css file */
+
+/* Education Section in Dark Mode */
+.dark-mode #education {
+  background-color: #111;
 }
 
-/* Navbar Background */
-.dark-mode .navbar {
-  background-color: #1a1a1a;
+.dark-mode .education-title {
+  color: #fff;
 }
 
-/* Navbar Link Color */
-.dark-mode .navbar-nav .nav-link {
-  color: #ffffff;
+.dark-mode .education-date {
+  color: #bbb;
 }
 
-/* Active Navbar Link Color */
-.dark-mode .navbar-nav .nav-link.active,
-.dark-mode .navbar-nav .nav-link:hover {
-  color: #66b3ff;
+.dark-mode .education-description {
+  color: #ccc;
 }
 
-/* Button Styles */
-.dark-mode .btn-primary {
-  background-color: #66b3ff;
-  border-color: #66b3ff;
+/* Experience Section in Dark Mode */
+
+.dark-mode .modal-content {
+  background-color: #333; /* Dark background color for the modal */
+  color: #fff; /* Text color in dark mode */
 }
 
-.dark-mode .btn-primary:hover {
-  background-color: #0099ff;
-  border-color: #0099ff;
+.dark-mode .modal-header {
+  border-bottom: 1px solid #777; /* Border color for the header in dark mode */
 }
 
-/* Card Background */
+.dark-mode .modal-title {
+  color: #fff; /* Modal title text color in dark mode */
+}
+
+.dark-mode .close {
+  color: white; /* Close button color in dark mode */
+}
+
 .dark-mode .card {
-  background-color: #292929;
-  border-color: rgba(255, 255, 255, 0.125);
+  background-color: #444; /* Background color for the card in dark mode */
+  border: none; /* Remove the card border in dark mode */
+  margin-bottom: 10px; /* Add some margin between cards */
 }
 
-/* Text Color */
-.dark-mode .text-light {
-  color: #ffffff;
+.dark-mode .card-title {
+  color: #fff; /* Card title text color in dark mode */
 }
 
-/* Form Input Background */
-.dark-mode .form-control {
-  background-color: #292929;
-  color: #ffffff;
+.dark-mode .experience-date {
+  color: #bbb; /* Date text color in dark mode */
 }
 
-/* Form Input Border */
-.dark-mode .form-control:focus {
-  border-color: #66b3ff;
-  box-shadow: 0 0 0 0.25rem rgba(102, 179, 255, 0.25);
+.dark-mode .experience-description {
+  color: #fff; /* Description text color in dark mode */
 }
 
-/* Pagination Active Item */
-.dark-mode .page-item.active .page-link {
-  background-color: #66b3ff;
-  border-color: #66b3ff;
+.dark-mode .experience-list {
+  list-style-type: disc; /* Change the list style in dark mode */
+  color: #fff; /* List text color in dark mode */
 }
 
-/* Pagination Hover Item */
-.dark-mode .page-item:not(.disabled):not(.active) .page-link:hover {
-  background-color: #0099ff;
-  border-color: #0099ff;
+.dark-mode .experience-list li {
+  margin-left: 20px; /* Adjust the list item indentation in dark mode */
 }
 
-/* Custom Styles for Other Components */
-/* ... (Add additional styles for other components) ... */
+/* Dark mode specific styles for close button when hovered */
+.dark-mode .close:hover {
+  color: #f00; /* Change close button color on hover in dark mode */
+}
+
+/* Dark mode specific styles for modal content scrollbar */
+.dark-mode .modal-body {
+  scrollbar-color: #666 #333; /* Custom scrollbar color in dark mode */
+}
+
+/* Dark mode specific styles for accordion links */
+.dark-mode .card-header a {
+  color: #fff; /* Accordion link color in dark mode */
+}
+
+/* Dark mode specific styles for active accordion link */
+.dark-mode .card-header a[aria-expanded="true"] {
+  color: #f00; /* Active accordion link color in dark mode */
+}
+
+/* Dark mode specific styles for card header border */
+.dark-mode .card-header {
+  border-bottom: 1px solid #666; /* Card header border color in dark mode */
+}
+
+    .dark-mode .card-body{
+		background-color:#111;
+	}
+.dark-mode .read-more-link{
+	color:#fff;
+}
+	.dark-mode .read-more-link .active{
+	color:gray;
+}
+.dark-mode #collapseContent{
+	background-color:#111;
+}
+
+.dark-mode a#certificate-tab.nav-link.active{
+	color:#fff;
+	font-weight:bold;
+	background-color:#111;
+	border-bottom:none;
+}
+.dark-mode a#diploma-tab.nav-link.active{
+color:#fff;
+	font-weight:bold;
+	background-color:#111;
+	border-bottom:none;
+}
+.dark-mode a#engineering-tab.nav-link.active{
+	color:#fff;
+	font-weight:bold;
+	background-color:#111;
+	border-bottom:none;
+}
+.dark-mode .tab-content{
+		background-color:#111;
+}
+
 
