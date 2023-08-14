@@ -1799,4 +1799,67 @@ section {
   color: #b5b5b5;
   margin-bottom: 8px;
 }
+/* Dark mode styles for Features section */
+.dark-mode #features {
+  background-color: #292929;
+  color: #b5b5b5;
+}
+
+.dark-mode .section-title h3,
+.dark-mode .section-title p {
+  color: #ccc;
+}
+
+/* Dark mode styles for Nav Tabs */
+.dark-mode .nav.nav-tabs {
+  border: none;
+}
+
+.dark-mode .nav.nav-tabs .nav-item {
+  margin-bottom: 15px;
+}
+
+.dark-mode .nav.nav-tabs .nav-link {
+  color: #b5b5b5;
+  background-color: #333;
+  border: none;
+  border-radius: 0;
+  padding: 10px 15px;
+}
+
+.dark-mode .nav.nav-tabs .nav-link.active,
+.dark-mode .nav.nav-tabs .nav-link.show {
+  color: #fff;
+  background-color: #4aa0e6;
+}
+
+/* Dark mode styles for Tab Content */
+.dark-mode .tab-content {
+  background-color: #333;
+  border: none;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Dark mode styles for Tab Pane */
+.dark-mode .tab-pane {
+  color: #b5b5b5;
+  padding: 20px 0;
+}
+
+/* Dark mode styles for Tab Images */
+.dark-mode .tab-pane img {
+  max-width: 100%;
+}
+
+/* Dark mode styles for Order-2 Column */
+.dark-mode .col-lg-6.order-2.order-lg-1 {
+  margin-top: 30px;
+}
+
+/* Dark mode styles for Order-1 Column */
+.dark-mode .col-lg-6.order-1.order-lg-2 {
+  margin-top: 30px;
+}
+
 
