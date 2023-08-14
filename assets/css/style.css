@@ -1663,7 +1663,7 @@ section {
 #hero h2 {
   color: #ccc; /* Change hero text color */
 }
-.dark #hero {
+.dark-mode #hero {
   background-image: url("../img/hero-bg-dark.png"); /* Change hero background image */
 }
 .dark-mode #hero .btn-get-started {
