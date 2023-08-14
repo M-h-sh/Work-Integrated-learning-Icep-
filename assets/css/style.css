@@ -1861,5 +1861,60 @@ section {
 .dark-mode .col-lg-6.order-1.order-lg-2 {
   margin-top: 30px;
 }
+/* Dark mode styles for Services section */
+.dark-mode #services {
+  background-color: #292929;
+  color: #b5b5b5;
+}
+
+.dark-mode .section-title h2,
+.dark-mode .section-title p {
+  color: #ccc;
+}
+
+/* Dark mode styles for Icon Boxes */
+.dark-mode .icon-box {
+  background-color: #333;
+  border: 1px solid #444;
+  padding: 30px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .icon-box .icon i {
+  color: #4aa0e6;
+}
+
+.dark-mode .icon-box h4.title a {
+  color: #fff;
+}
+
+.dark-mode .icon-box p.description {
+  color: #b5b5b5;
+}
+
+/* Dark mode styles for FAQ section */
+.dark-mode #faq {
+  background-color: #292929;
+  color: #b5b5b5;
+}
+
+.dark-mode .faq-list .question {
+  color: #fff;
+  cursor: pointer;
+}
+
+.dark-mode .faq-list .collapse {
+  color: #b5b5b5;
+  background-color: #333;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.dark-mode .faq-list .collapse p {
+  color: #b5b5b5;
+}
 
 
