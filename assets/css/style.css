@@ -1634,3 +1634,15 @@ section {
   font-size: 13px;
   color: #364146;
 }
+/* Light Mode Styles (your existing styles) */
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Add dark mode styles for specific elements */
+.dark-mode #header {
+  background-color: #1a1a1a;
+}
