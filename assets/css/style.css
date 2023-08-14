@@ -1635,81 +1635,87 @@ section {
   color: #364146;
 }
 /* Light Mode Styles (your existing styles) */
-
- .dark-mode body {
+/* Dark mode styles */
+.dark-mode body {
   font-family: "Open Sans", sans-serif;
-  color: #ccc; /* Change text color to a light gray */
-  background-color: #222; /* Change background color to a dark gray */
+  color: #ccc;
+  background-color: #222;
 }
 
 .dark-mode a {
-  color: #4aa0e6; /* Change link color */
+  color: #4aa0e6;
 }
 
 .dark-mode a:hover {
-  color: #66b3ff; /* Change link hover color */
+  color: #66b3ff;
 }
+
 .dark-mode #header {
-  background: #1a1a1a; /* Change header background color to a dark color */
+  background: #1a1a1a;
 }
 
 .dark-mode #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #ccc; /* Change logo text color */
+  color: #ccc;
 }
-
 
 .dark-mode #hero h1,
 #hero h2 {
-  color: #ccc; /* Change hero text color */
+  color: #ccc;
 }
+
 .dark-mode #hero {
-  background-image: url("../img/hero-bg-dark.png"); /* Change hero background image */
+  background-image: url("../img/hero-bg-dark.png");
 }
+
 .dark-mode #hero .btn-get-started {
-  background: #4aa0e6; /* Change button background color */
+  background: #4aa0e6;
 }
+
 .dark-mode section {
-  background-color: #333; /* Change section background color */
+  background-color: #333;
 }
 
 .dark-mode .section-title h2 {
-  color: #ccc; /* Change section title color */
+  color: #ccc;
 }
+
 .dark-mode .cta {
-  background: #444; /* Change cta background color */
+  background: #444;
 }
 
 .dark-mode .cta h3,
 .cta p {
-  color: #ccc; /* Change cta text color */
+  color: #ccc;
 }
 
 .dark-mode .cta .cta-btn {
-  background: #4aa0e6; /* Change cta button background color */
+  background: #4aa0e6;
 }
+
 .dark-mode .team {
-  background: #111; /* Change team section background color */
+  background: #111;
 }
 
 .team .member h4,
 .team .member span {
-  color: #ccc; /* Change team member text color */
+  color: #ccc;
 }
 
- .dark-mode .contact .info i {
-  background: #333; /* Change contact info icon background color */
+.dark-mode .contact .info i {
+  background: #333;
 }
 
 .dark-mode .contact .info h4,
 .contact .info p {
-  color: #ccc; /* Change contact info text color */
+  color: #ccc;
 }
 
 .dark-mode .contact .info .social-links a {
-  background: #222; /* Change social media icon background color */
-  color: #ccc; /* Change social media icon color */
+  background: #222;
+  color: #ccc;
 }
+
 .dark-mode #footer {
   padding: 60px 0;
   background-color: #333333;
@@ -1764,6 +1770,7 @@ section {
   margin-bottom: 0;
   font-size: 13px;
 }
+
 .dark-mode .container.our {
   background-color: #292929;
   color: #b5b5b5;
@@ -1776,7 +1783,7 @@ section {
 }
 
 .dark-mode .container.our img {
-  filter: brightness(80%); /* Adjust the brightness of the image */
+  filter: brightness(80%);
 }
 
 .dark-mode .container.our ul {
@@ -1787,63 +1794,4 @@ section {
   color: #b5b5b5;
   margin-bottom: 8px;
 }
-
-/* Dark mode styles */
-.dark-mode {
-  background-color: #292929;
-  color: #b5b5b5;
-}
-
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode p,
-.dark-mode a {
-  color: #fff;
-}
-
-/* Update navigation links color */
-.dark-mode #navbar ul li a {
-  color: #fff;
-}
-
-/* Update social icons color */
-.dark-mode .header-social-links a i {
-  color: #b5b5b5;
-}
-
-/* Update form input background and text color */
-.dark-mode .form-control {
-  background-color: #333;
-  color: #b5b5b5;
-}
-
-/* Update form submit button background and text color */
-.dark-mode .php-email-form button {
-  background-color: #007bff;
-  color: #fff;
-}
-
-/* Update footer background and text color */
-.dark-mode #footer {
-  background-color: #1c1c1c;
-  color: #b5b5b5;
-}
-
-/* Update FAQ question color */
-.dark-mode .faq-list .question {
-  color: #fff;
-}
-
-/* Update FAQ answer color */
-.dark-mode .faq-list .collapse p {
-  color: #b5b5b5;
-}
-
-/* Update map background color */
-.dark-mode iframe {
-  background-color: #292929;
-}
-
 
