@@ -1788,6 +1788,62 @@ section {
   margin-bottom: 8px;
 }
 
+/* Dark mode styles */
+.dark-mode {
+  background-color: #292929;
+  color: #b5b5b5;
+}
 
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode p,
+.dark-mode a {
+  color: #fff;
+}
+
+/* Update navigation links color */
+.dark-mode #navbar ul li a {
+  color: #fff;
+}
+
+/* Update social icons color */
+.dark-mode .header-social-links a i {
+  color: #b5b5b5;
+}
+
+/* Update form input background and text color */
+.dark-mode .form-control {
+  background-color: #333;
+  color: #b5b5b5;
+}
+
+/* Update form submit button background and text color */
+.dark-mode .php-email-form button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Update footer background and text color */
+.dark-mode #footer {
+  background-color: #1c1c1c;
+  color: #b5b5b5;
+}
+
+/* Update FAQ question color */
+.dark-mode .faq-list .question {
+  color: #fff;
+}
+
+/* Update FAQ answer color */
+.dark-mode .faq-list .collapse p {
+  color: #b5b5b5;
+}
+
+/* Update map background color */
+.dark-mode iframe {
+  background-color: #292929;
+}
 
 
