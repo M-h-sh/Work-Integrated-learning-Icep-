@@ -1636,13 +1636,57 @@ section {
 }
 /* Light Mode Styles (your existing styles) */
 
+/* Light Mode Styles (your existing styles) */
+
 /* Dark Mode Styles */
 .dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-/* Add dark mode styles for specific elements */
 .dark-mode #header {
   background-color: #1a1a1a;
 }
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #ffffff;
+}
+
+.dark-mode p,
+.dark-mode li,
+.dark-mode span {
+  color: #d0d0d0;
+}
+
+.dark-mode a {
+  color: #66b3ff;
+}
+
+.dark-mode a:hover {
+  color: #0099ff;
+}
+
+/* Additional element styling for dark mode */
+.dark-mode .section-title h3 {
+  color: #ffffff;
+}
+
+.dark-mode .icon {
+  color: #66b3ff;
+}
+
+.dark-mode .btn {
+  background-color: #66b3ff;
+  color: #ffffff;
+}
+
+.dark-mode .btn:hover {
+  background-color: #0099ff;
+}
+
+/* Update other elements' styles for dark mode */
