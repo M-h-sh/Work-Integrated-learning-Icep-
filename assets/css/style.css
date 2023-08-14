@@ -1657,9 +1657,7 @@ section {
 #header .logo h1 a:hover {
   color: #ccc; /* Change logo text color */
 }
-.dark-mode #hero {
-  background-image: url("../img/hero.jpg"); /* Change hero background image */
-}
+
 
 .dark-mode #hero h1,
 #hero h2 {
