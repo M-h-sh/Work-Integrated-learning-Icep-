@@ -1845,7 +1845,7 @@ section {
 
 /* Dark mode styles for FAQ section */
 .dark-mode #faq {
-  background-color: #292929;
+  background-color: #111;
   color: #b5b5b5;
 }
 
