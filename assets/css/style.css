@@ -2187,11 +2187,8 @@ body .dark-mode{
   filter: brightness(0.6);
 }
 
-/* Add any additional dark mode styles as needed */
-.dark-mode .show{
-  background-color: #1a1a1a;
-  color: #f0f0f0;
-}
+
+
 
 
 
