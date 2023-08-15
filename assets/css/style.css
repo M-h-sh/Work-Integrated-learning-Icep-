@@ -1813,16 +1813,7 @@ body .dark-mode{
   color: #b5b5b5;
   margin-bottom: 8px;
 }
-/* Dark mode styles for Features section */
-.dark-mode #features {
-  background-color: #292929;
-  color: #b5b5b5;
-}
 
-.dark-mode .section-title h3,
-.dark-mode .section-title p {
-  color: #ccc;
-}
 
 /* Dark mode styles for Nav Tabs */
 .dark-mode .nav.nav-tabs {
@@ -2128,47 +2119,72 @@ body .dark-mode{
 .dark-mode .header-social-links a i {
   color: #ccc;
 }
+
 /* Dark mode styles for Features section */
-.dark-mode #features {
+.features {
+  padding-bottom: 40px;
   background-color: #292929;
   color: #ccc;
 }
 
-.dark-mode #features .section-title h3 {
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 0;
+  padding: 20px;
+  transition: 0.3s;
+  color: #ccc;
+  transition: 0.3s ease-in-out;
+  border-radius: 0;
+  border-left: 4px solid #444;
+}
+
+.features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  color: #b5b5b5;
+}
+
+.features .nav-link p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #b5b5b5;
+}
+
+.features .nav-link:hover {
+  background: #444;
+}
+
+.dark-mode .features .nav-link:hover h4 {
   color: #ccc;
 }
 
-.dark-mode #features .nav-link {
-  color: #ccc;
+.dark-mode .features .nav-link.active {
+  border-radius: 0;
+  border: 0;
+  border-left: 4px solid #009cea;
+  background: #444;
 }
 
-.dark-mode #features .tab-content {
-  border-color: #444;
+.dark-mode .features .nav-link.active h4 {
+  color: #009cea;
 }
 
-.dark-mode #features .tab-pane h4 {
-  color: #ccc;
+.dark-mode .features .tab-pane.active {
+  animation: slide-down 0.5s ease-out;
 }
 
-/* Dark mode styles for Services section */
-.dark-mode #services {
-  background-color: #1c1c1c;
-  color: #ccc;
+.dark-mode .features .tab-content {
+  text-align: right;
 }
 
-.dark-mode #services .section-title h2 {
-  color: #ccc;
-}
 
-.dark-mode #services .icon-box .icon i {
-  color: #ccc;
-}
 
-.dark-mode #services .icon-box h4.title a {
-  color: #ccc;
-}
 
-.dark-mode #services .icon-box p.description {
-  color: #ccc;
-}
+
+
+
 
