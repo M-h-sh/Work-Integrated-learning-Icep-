@@ -274,7 +274,9 @@ h6 {
     display: none;
   }
 }
-
+#n{
+  background-color:#fff;
+}
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
