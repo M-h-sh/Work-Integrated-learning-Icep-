@@ -2081,6 +2081,9 @@ body .dark-mode{
 .dark-mode .resume p span {
   color: #ccc;
 }
+.dark-mode #all{
+  background-color: #222;
+}
 .dark-mode .bg-color{
   background-color:#222;
 }
