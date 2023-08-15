@@ -16,6 +16,9 @@ body {
 .bg-color{
   background-color:white;
 }
+#we{
+  color: #576971;
+}
 a {
   color: #009cea;
   text-decoration: none;
@@ -2141,4 +2144,9 @@ section {
 
 .dark-mode .contact .php-email-form textarea {
    background: #111;
+}
+.dark-mode #we{
+  color: #fff;
+}{
+  
 }
