@@ -13,7 +13,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+.bg-color{
+  background-color:white;
+}
 a {
   color: #009cea;
   text-decoration: none;
@@ -2115,6 +2117,9 @@ section {
 
 .dark-mode .features .nav-link.active h4 {
   color: #009cea;
+}
+.dark-mode .bg-color{
+  background-color:#111;
 }
 
 .dark-mode .features .tab-pane.active {
