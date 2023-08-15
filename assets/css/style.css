@@ -1647,29 +1647,29 @@ section {
   padding-top: 8px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #ffffff; /* White text color */
 }
 
 /* Dark mode styles for body */
 .dark-mode body {
   font-family: "Open Sans", sans-serif;
-  color: #ccc;
-  background-color: #111;
+  color: #cccccc; /* Light gray text color */
+  background-color: #111111; /* Very dark gray background color */
 }
 
 /* Dark mode styles for links */
 .dark-mode a {
-  color: #4aa0e6;
+  color: #4aa0e6; /* Blue link color */
 }
 
 .dark-mode a:hover {
-  color: #66b3ff;
+  color: #66b3ff; /* Light blue link color on hover */
 }
 
 /* Dark mode styles for header */
 .dark-mode #header {
-  background-color: #1a1a1a;
-  color: #ccc;
+  background-color: #1a1a1a; /* Dark gray header background */
+  color: #cccccc; /* Light gray header text color */
 }
 
 .dark-mode #header .logo h1 a,
