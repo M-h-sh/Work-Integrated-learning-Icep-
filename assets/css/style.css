@@ -1637,6 +1637,12 @@ section {
   font-size: 13px;
   color: #364146;
 }
+.dark-mode #footer .credits {
+  padding-top: 8px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
 /* Light Mode Styles (your existing styles) */
 /* Dark mode styles */
 .dark-mode body {
