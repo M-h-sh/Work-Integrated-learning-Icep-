@@ -1879,7 +1879,7 @@ section {
 
 .dark-mode .info {
   border: 1px solid #444;
-  background-color: #333;
+  background-color: #111;
   padding: 30px;
   border-radius: 6px;
   margin-bottom: 30px;
@@ -1898,7 +1898,7 @@ section {
 }
 
 .dark-mode iframe {
-  background-color: #292929;
+  background-color: #111;
 }
 
 .dark-mode .php-email-form {
@@ -1913,7 +1913,7 @@ section {
 }
 
 .dark-mode .form-control {
-  background-color: #444;
+  background-color: #222;
   color: #b5b5b5;
   border: 1px solid #444;
   border-radius: 6px;
