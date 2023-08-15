@@ -362,9 +362,7 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-#hero h2 #we{
-  color: #6c757D;
-}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -432,7 +430,7 @@ h6 {
   }
 
   #hero h2 {
- 
+    color:#6C757D;
     font-size: 20px;
   }
 }
