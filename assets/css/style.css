@@ -1824,7 +1824,7 @@ section {
 
 /* Dark mode styles for Icon Boxes */
 .dark-mode .icon-box {
-  background-color: #333;
+  background-color: #111;
   border: 1px solid #444;
   padding: 30px;
   border-radius: 6px;
