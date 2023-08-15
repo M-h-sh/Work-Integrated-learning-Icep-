@@ -1427,6 +1427,7 @@ section {
 }
 
 .contact .php-email-form input {
+  
   height: 44px;
 }
 
@@ -2127,4 +2128,12 @@ section {
 /* Dark mode styles for tab content images */
 .dark-mode .features .tab-content img {
   filter: brightness(0.6);
+}
+.dark-mode .contact .php-email-form input {
+  background: #111;
+
+}
+
+.dark-mode .contact .php-email-form textarea {
+   background: #111;
 }
