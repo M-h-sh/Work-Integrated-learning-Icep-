@@ -2123,6 +2123,71 @@ body .dark-mode{
   color: #ccc;
 }
 
+/* Dark mode styles for Key Features section */
+.features {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.dark-mode .features .nav-tabs {
+  border: 0;
+}
+
+.dark-mode .features .nav-link {
+  border: 0;
+  padding: 20px;
+  transition: 0.3s;
+  color: #f0f0f0;
+  transition: 0.3s ease-in-out;
+  border-radius: 0;
+  border-left: 4px solid #242424;
+}
+
+.dark-mode .features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  color: #b5b5b5;
+}
+
+.dark-mode .features .nav-link p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.dark-mode .features .nav-link:hover {
+  background: #242424;
+}
+
+.dark-mode .features .nav-link:hover h4 {
+  color: #f0f0f0;
+}
+
+.dark-mode .features .nav-link.active {
+  border-radius: 0;
+  border: 0;
+  border-left: 4px solid #009cea;
+  background: #242424;
+}
+
+.dark-mode .features .nav-link.active h4 {
+  color: #009cea;
+}
+
+.dark-mode .features .tab-pane.active {
+  animation: slide-down 0.5s ease-out;
+}
+
+.dark-mode .features .tab-content {
+  text-align: right;
+}
+
+/* Dark mode styles for tab content images */
+.dark-mode .features .tab-content img {
+  filter: brightness(0.6);
+}
+
+/* Add any additional dark mode styles as needed */
 
 
 
