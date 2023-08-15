@@ -1653,7 +1653,7 @@ section {
 .dark-mode body{
   font-family: "Open Sans", sans-serif;
   color: #ccc;
-  background-color: #111;
+  background-color: #292929;
 }
 
 
@@ -2095,9 +2095,7 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
-.dark-mode #main {
-  background-color:#222;
-}
+
 
 .dark-mode .features .nav-link:hover {
   background: #242424;
