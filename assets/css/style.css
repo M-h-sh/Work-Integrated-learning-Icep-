@@ -1655,16 +1655,7 @@ section {
   color: #ccc;
   background-color: #222;
 }
-body .dark-mode{
-  font-family: "Open Sans", sans-serif;
-  color: #ccc;
-  background-color: #222;
-}
-.dark-mode #main{
-  font-family: "Open Sans", sans-serif;
-  color: #ccc;
-  background-color: #292929;
-}
+
 
 .dark-mode a {
   color: #4aa0e6;
