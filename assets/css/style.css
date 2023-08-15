@@ -2107,6 +2107,9 @@ body .dark-mode{
   background-color: #1a1a1a;
   color: #ccc;
 }
+.dark-mode #navbar ul li.dropdown{
+  background-color: #1a1a1a;
+}
 
 .dark-mode #navbar .mobile-nav-toggle {
   background-color: #1a1a1a;
