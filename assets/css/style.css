@@ -2159,27 +2159,25 @@ body .dark-mode{
 }
 
 .dark-mode .features .nav-link:hover h4 {
-  color: #ccc;
+  color: #fff;
 }
 
 .dark-mode .features .nav-link.active {
   border-radius: 0;
   border: 0;
-  border-left: 4px solid #009cea;
+  border-left: 4px solid #fff;
   background: #444;
 }
 
 .dark-mode .features .nav-link.active h4 {
-  color: #009cea;
+  color: #fff;
 }
 
 .dark-mode .features .tab-pane.active {
   animation: slide-down 0.5s ease-out;
 }
 
-.dark-mode .features .tab-content {
-  text-align: right;
-}
+
 
 
 
