@@ -2091,14 +2091,14 @@ body .dark-mode{
   color: #364146;
   transition: 0.3s ease-in-out;
   border-radius: 0;
-  border-left: 4px solid #fafbfb;
+  border-left: 4px solid #ffff;
 }
 
 .dark-mode .features .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
   transition: 0.3s ease-in-out;
-  color: #576971;
+  color: #fff;
 }
 
 .dark-mode .features .nav-link p {
@@ -2107,11 +2107,11 @@ body .dark-mode{
 }
 
 .dark-mode .features .nav-link:hover {
-  background: #fafbfb;
+  background: #121212;
 }
 
 .dark-mode .features .nav-link:hover h4 {
-  color: #364146;
+  color: #fff;
 }
 
 .dark-mode .features .nav-link.active {
@@ -2122,7 +2122,7 @@ body .dark-mode{
 }
 
 .dark-mode .features .nav-link.active h4 {
-  color: #009cea;
+  color: #ccc;
 }
 
 .dark-mode .features .tab-pane.active {
