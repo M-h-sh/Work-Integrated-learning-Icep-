@@ -2128,3 +2128,47 @@ body .dark-mode{
 .dark-mode .header-social-links a i {
   color: #ccc;
 }
+/* Dark mode styles for Features section */
+.dark-mode #features {
+  background-color: #292929;
+  color: #ccc;
+}
+
+.dark-mode #features .section-title h3 {
+  color: #ccc;
+}
+
+.dark-mode #features .nav-link {
+  color: #ccc;
+}
+
+.dark-mode #features .tab-content {
+  border-color: #444;
+}
+
+.dark-mode #features .tab-pane h4 {
+  color: #ccc;
+}
+
+/* Dark mode styles for Services section */
+.dark-mode #services {
+  background-color: #1c1c1c;
+  color: #ccc;
+}
+
+.dark-mode #services .section-title h2 {
+  color: #ccc;
+}
+
+.dark-mode #services .icon-box .icon i {
+  color: #ccc;
+}
+
+.dark-mode #services .icon-box h4.title a {
+  color: #ccc;
+}
+
+.dark-mode #services .icon-box p.description {
+  color: #ccc;
+}
+
