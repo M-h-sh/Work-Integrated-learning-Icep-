@@ -1642,34 +1642,31 @@ section {
   font-size: 13px;
   color: #364146;
 }
-/* Dark mode styles for footer credits */
 .dark-mode #footer .credits {
   padding-top: 8px;
   text-align: center;
   font-size: 13px;
-  color: #ffffff; /* White text color */
+  color: #fff;
 }
-
-/* Dark mode styles for body */
-.dark-mode body {
+/* Light Mode Styles (your existing styles) */
+/* Dark mode styles */
+.dark-mode body{
   font-family: "Open Sans", sans-serif;
-  color: #cccccc; /* Light gray text color */
-  background-color: #111111; /* Very dark gray background color */
+  color: #ccc;
+  background-color: #111;
 }
 
-/* Dark mode styles for links */
+
 .dark-mode a {
-  color: #4aa0e6; /* Blue link color */
+  color: #4aa0e6;
 }
 
 .dark-mode a:hover {
-  color: #66b3ff; /* Light blue link color on hover */
+  color: #66b3ff;
 }
 
-/* Dark mode styles for header */
 .dark-mode #header {
-  background-color: #1a1a1a; /* Dark gray header background */
-  color: #cccccc; /* Light gray header text color */
+  background: #1a1a1a;
 }
 
 .dark-mode #header .logo h1 a,
@@ -1690,17 +1687,14 @@ section {
   background: #4aa0e6;
 }
 
-/* Dark mode styles for sections */
 .dark-mode section {
   background-color: #111;
 }
 
-/* Dark mode styles for section titles */
 .dark-mode .section-title h2 {
   color: #ccc;
 }
 
-/* Dark mode styles for Call to Action (CTA) */
 .dark-mode .cta {
   background: #444;
 }
@@ -1714,17 +1708,15 @@ section {
   background: #4aa0e6;
 }
 
-/* Dark mode styles for team section */
 .dark-mode .team {
   background: #111;
 }
 
-.dark-mode .team .member h4,
+.team .member h4,
 .team .member span {
   color: #ccc;
 }
 
-/* Dark mode styles for contact section */
 .dark-mode .contact .info i {
   background: #333;
 }
@@ -1739,7 +1731,6 @@ section {
   color: #ccc;
 }
 
-/* Dark mode styles for footer section */
 .dark-mode #footer {
   padding: 60px 0;
   background-color: #333333;
@@ -1795,7 +1786,6 @@ section {
   font-size: 13px;
 }
 
-/* Dark mode styles for container.our */
 .dark-mode .container.our {
   background-color: #292929;
   color: #b5b5b5;
@@ -1820,7 +1810,8 @@ section {
   margin-bottom: 8px;
 }
 
-/* Dark mode styles for services section */
+
+/* Dark mode styles for Services section */
 .dark-mode #services {
   background-color: #292929;
   color: #b5b5b5;
@@ -1831,7 +1822,7 @@ section {
   color: #ccc;
 }
 
-/* Dark mode styles for icon boxes */
+/* Dark mode styles for Icon Boxes */
 .dark-mode .icon-box {
   background-color: #333;
   border: 1px solid #444;
@@ -1876,18 +1867,16 @@ section {
   color: #b5b5b5;
 }
 
-/* Dark mode styles for contact section */
+/* Dark mode styles for Contact section */
 .dark-mode #contact {
   background-color: #292929;
   color: #b5b5b5;
 }
 
-/* Dark mode styles for contact section title */
 .dark-mode .section-title h2 {
   color: #ccc;
 }
 
-/* Dark mode styles for contact info */
 .dark-mode .info {
   border: 1px solid #444;
   background-color: #333;
@@ -1912,7 +1901,6 @@ section {
   background-color: #292929;
 }
 
-/* Dark mode styles for PHP email form */
 .dark-mode .php-email-form {
   border: 1px solid #444;
   background-color: #333;
@@ -1958,19 +1946,18 @@ section {
 .dark-mode .text-center button[type="submit"]:hover {
   background-color: #66b3ff;
 }
-
-/* Dark mode styles for resume builder section */
-.dark-mode .resume-builder {
+/* Dark mode styles for Resume Builder section */
+.dark-mode #services {
   background-color: #292929;
   color: #b5b5b5;
 }
 
-.dark-mode .resume-builder .section-title h1,
-.dark-mode .resume-builder .section-title p {
+.dark-mode .section-title h1,
+.dark-mode .section-title p {
   color: #ccc;
 }
 
-.dark-mode .resume-builder .section .section-bg {
+.dark-mode .section .section-bg {
   background-color: #333;
   border: 1px solid #444;
   padding: 20px;
@@ -1978,15 +1965,15 @@ section {
   margin-bottom: 30px;
 }
 
-.dark-mode .resume-builder .section h2 {
+.dark-mode .section h2 {
   color: #fff;
 }
 
-.dark-mode .resume-builder .form-group label {
+.dark-mode .form-group label {
   color: #ccc;
 }
 
-.dark-mode .resume-builder .form-control {
+.dark-mode .form-control {
   background-color: #444;
   color: #b5b5b5;
   border: 1px solid #444;
@@ -1994,15 +1981,15 @@ section {
   margin-bottom: 10px;
 }
 
-.dark-mode .resume-builder .form-control:focus {
+.dark-mode .form-control:focus {
   border-color: #4aa0e6;
 }
 
-.dark-mode .resume-builder textarea.form-control {
+.dark-mode textarea.form-control {
   resize: vertical;
 }
 
-.dark-mode .resume-builder .btn-primary {
+.dark-mode .btn-primary {
   background-color: #4aa0e6;
   border: none;
   border-radius: 6px;
@@ -2012,11 +1999,11 @@ section {
   transition: background-color 0.3s;
 }
 
-.dark-mode .resume-builder .btn-primary:hover {
+.dark-mode .btn-primary:hover {
   background-color: #66b3ff;
 }
 
-.dark-mode .resume-builder .resume {
+.dark-mode .resume {
   background-color: #333;
   border: 1px solid #444;
   padding: 20px;
@@ -2024,31 +2011,119 @@ section {
   margin-top: 30px;
 }
 
-.dark-mode .resume-builder .resume h2,
-.dark-mode .resume-builder .resume h3 {
+.dark-mode .resume h2,
+.dark-mode .resume h3 {
   color: #fff;
 }
 
-.dark-mode .resume-builder .resume p strong {
+.dark-mode .resume p strong {
   color: #b5b5b5;
 }
 
-.dark-mode .resume-builder .resume p span {
+.dark-mode .resume p span {
+  color: #ccc;
+}
+.dark-mode #all{
+  background-color: #222;
+}
+.dark-mode .bg-color{
+  background-color:#222;
+}
+
+/* Dark mode styles for header */
+.dark-mode #header {
+  background-color: #1a1a1a;
   color: #ccc;
 }
 
-/* Dark mode styles for "All" container */
-.dark-mode #all {
-  background-color: #222;
+.dark-mode #header .logo h1 a {
+  color: #ccc;
 }
 
-/* Dark mode styles for other elements (adjust as needed) */
+.dark-mode #navbar ul li a {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
 
+.dark-mode #navbar ul li.dropdown ul li a {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+.dark-mode #navbar ul{
+  background-color: #1a1a1a;
+}
 
+.dark-mode #navbar .mobile-nav-toggle {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+.dark-mode #navbar {
+  background-color: #1a1a1a;
 
+}
+.dark-mode .header-social-links a i {
+  color: #ccc;
+}
+/* Dark mode styles for Key Features section */
+.dark-mode .features {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
 
+.dark-mode .features .nav-tabs {
+  border: 0;
+}
 
+.dark-mode .features .nav-link {
+  border: 0;
+  padding: 20px;
+  transition: 0.3s;
+  color: #f0f0f0;
+  transition: 0.3s ease-in-out;
+  border-radius: 0;
+  border-left: 4px solid #242424;
+}
 
+.dark-mode .features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  color: #b5b5b5;
+}
 
+.dark-mode .features .nav-link p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
 
+.dark-mode .features .nav-link:hover {
+  background: #242424;
+}
 
+.dark-mode .features .nav-link:hover h4 {
+  color: #f0f0f0;
+}
+
+.dark-mode .features .nav-link.active {
+  border-radius: 0;
+  border: 0;
+  border-left: 4px solid #009cea;
+  background: #242424;
+}
+
+.dark-mode .features .nav-link.active h4 {
+  color: #009cea;
+}
+
+.dark-mode .features .tab-pane.active {
+  animation: slide-down 0.5s ease-out;
+}
+
+.dark-mode .features .tab-content {
+  text-align: right;
+}
+
+/* Dark mode styles for tab content images */
+.dark-mode .features .tab-content img {
+  filter: brightness(0.6);
+}
