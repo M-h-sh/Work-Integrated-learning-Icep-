@@ -1650,7 +1650,7 @@ section {
 }
 /* Light Mode Styles (your existing styles) */
 /* Dark mode styles */
-.dark-mode body {
+.dark-mode body{
   font-family: "Open Sans", sans-serif;
   color: #ccc;
   background-color: #222;
