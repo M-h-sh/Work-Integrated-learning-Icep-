@@ -2167,7 +2167,7 @@ body .dark-mode{
   border-radius: 0;
   border: 0;
   border-left: 4px solid #fff;
-  background: #242424;
+   background-color: #1a1a1a;
 }
 
 .dark-mode .features .nav-link.active h4 {
