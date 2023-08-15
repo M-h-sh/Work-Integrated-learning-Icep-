@@ -470,9 +470,6 @@ section {
   background-color: #f7f8f9;
   padding: 60px 50px;
 }
-.bg-color{
-  background-color:white;
-}
 
 @media (max-width: 992px) {
   .about .container {
@@ -565,7 +562,6 @@ section {
 .features .tab-content {
   text-align: right;
 }
-
 
 @keyframes slide-down {
   0% {
