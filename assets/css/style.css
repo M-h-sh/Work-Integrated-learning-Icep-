@@ -2166,7 +2166,7 @@ body .dark-mode{
 .dark-mode .features .nav-link.active {
   border-radius: 0;
   border: 0;
-  border-left: 4px solid #009cea;
+  border-left: 4px solid #fff;
   background: #242424;
 }
 
@@ -2188,7 +2188,10 @@ body .dark-mode{
 }
 
 /* Add any additional dark mode styles as needed */
-
+.dark-mode .nav-link .active .show{
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
 
 
 
