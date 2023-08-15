@@ -2099,14 +2099,17 @@ body .dark-mode{
 }
 
 .dark-mode #navbar ul li a {
+  background-color: #1a1a1a;
   color: #ccc;
 }
 
 .dark-mode #navbar ul li.dropdown ul li a {
+  background-color: #1a1a1a;
   color: #ccc;
 }
 
 .dark-mode #navbar .mobile-nav-toggle {
+  background-color: #1a1a1a;
   color: #ccc;
 }
 
