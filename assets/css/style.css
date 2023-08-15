@@ -2026,7 +2026,7 @@ section {
 .dark-mode #all{
   background-color: #222;
 }
-.dark-mode #we.text-secondary{
+.dark-mode h2 #we .text-secondary{
   color: #fff;
 }
 .dark-mode .bg-color{
