@@ -2188,7 +2188,7 @@ body .dark-mode{
 }
 
 /* Add any additional dark mode styles as needed */
-.dark-mode .nav-link .active .show{
+.dark-mode .show{
   background-color: #1a1a1a;
   color: #f0f0f0;
 }
