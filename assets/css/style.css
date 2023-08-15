@@ -2088,3 +2088,28 @@ body .dark-mode{
   background-color:#222;
 }
 
+/* Dark mode styles for header */
+.dark-mode #header {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+.dark-mode #header .logo h1 a {
+  color: #ccc;
+}
+
+.dark-mode #navbar ul li a {
+  color: #ccc;
+}
+
+.dark-mode #navbar ul li.dropdown ul li a {
+  color: #ccc;
+}
+
+.dark-mode #navbar .mobile-nav-toggle {
+  color: #ccc;
+}
+
+.dark-mode .header-social-links a i {
+  color: #ccc;
+}
