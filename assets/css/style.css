@@ -362,7 +362,7 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
-h2 #we .text-secondary{
+h2 #we{
   color: #6c757D;
 }
 /*--------------------------------------------------------------
@@ -2028,7 +2028,7 @@ section {
 .dark-mode #all{
   background-color: #222;
 }
-.dark-mode h2 #we .text-secondary{
+.dark-mode h2 #we{
   color: #fff;
 }
 .dark-mode .bg-color{
