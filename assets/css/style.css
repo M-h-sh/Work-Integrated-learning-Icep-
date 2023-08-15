@@ -2012,7 +2012,7 @@ body .dark-mode{
   color: #ccc;
 }
 
-.dark-mode .section {
+.dark-mode .section .section-bg {
   background-color: #333;
   border: 1px solid #444;
   padding: 20px;
