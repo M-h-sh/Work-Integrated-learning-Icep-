@@ -2095,6 +2095,9 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
+.dark-mode #main {
+  background-color:#222;
+}
 
 .dark-mode .features .nav-link:hover {
   background: #242424;
