@@ -1820,30 +1820,6 @@ body .dark-mode{
 }
 
 
-/* Dark mode styles for Nav Tabs */
-.dark-mode .nav.nav-tabs {
-  border: none;
-}
-
-.dark-mode .nav.nav-tabs .nav-item {
-  margin-bottom: 15px;
-}
-
-.dark-mode .nav.nav-tabs .nav-link {
-  color: #b5b5b5;
-  background-color: #333;
-  border: none;
-  border-radius: 0;
-  padding: 10px 15px;
-}
-
-.dark-mode .nav.nav-tabs .nav-link.active,
-.dark-mode .nav.nav-tabs .nav-link.show {
-  color: #fff;
-  background-color: #4aa0e6;
-}
-
-
 /* Dark mode styles for Services section */
 .dark-mode #services {
   background-color: #292929;
