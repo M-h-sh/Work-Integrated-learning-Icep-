@@ -2112,7 +2112,10 @@ body .dark-mode{
   background-color: #1a1a1a;
   color: #ccc;
 }
+.dark-mode #navbar {
+  background-color: #1a1a1a;
 
+}
 .dark-mode .header-social-links a i {
   color: #ccc;
 }
