@@ -467,9 +467,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# 
 --------------------------------------------------------------*/
-.about {
+. {
   padding: 0;
   margin-top: 40px;
 }
@@ -492,22 +492,22 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.about .content ul {
+. .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+. .content ul li {
   padding-bottom: 10px;
 }
 
-.about .content ul i {
+. .content ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #28a745;
 }
 
-.about .content p:last-child {
+. .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -1653,12 +1653,12 @@ section {
 .dark-mode body {
   font-family: "Open Sans", sans-serif;
   color: #ccc;
-  background-color: #222;
+  background-color: #292929;
 }
 body .dark-mode{
   font-family: "Open Sans", sans-serif;
   color: #ccc;
-  background-color: #222;
+  background-color: #292929;
 }
 .dark-mode #main{
   font-family: "Open Sans", sans-serif;
