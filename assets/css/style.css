@@ -1903,7 +1903,7 @@ section {
 
 .dark-mode .php-email-form {
   border: 1px solid #444;
-  background-color: #333;
+  background-color: #111;
   padding: 30px;
   border-radius: 6px;
 }
@@ -1958,7 +1958,7 @@ section {
 }
 
 .dark-mode .section .section-bg {
-  background-color: #333;
+  background-color: #111;
   border: 1px solid #444;
   padding: 20px;
   border-radius: 6px;
