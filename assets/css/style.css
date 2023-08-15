@@ -2176,7 +2176,11 @@ body .dark-mode{
 .dark-mode .features .tab-pane.active {
   animation: slide-down 0.5s ease-out;
 }
-
+.dark-mode .nav-link active show{
+  padding-bottom: 40px;
+  background-color: #222;
+  color: #ccc;
+}
 
 
 
