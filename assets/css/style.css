@@ -1674,7 +1674,7 @@ section {
 }
 
 .dark-mode #hero h1,
-#hero h2 {
+.dark-mode #hero h2 {
   color: #ccc;
 }
 
