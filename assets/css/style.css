@@ -1973,7 +1973,7 @@ section {
 }
 
 .dark-mode .form-control {
-  background-color: #444;
+  background-color: #111;
   color: #b5b5b5;
   border: 1px solid #444;
   border-radius: 6px;
@@ -2003,7 +2003,7 @@ section {
 }
 
 .dark-mode .resume {
-  background-color: #333;
+  background-color: #111;
   border: 1px solid #444;
   padding: 20px;
   border-radius: 6px;
